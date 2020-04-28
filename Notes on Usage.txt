@@ -1,0 +1,27 @@
+
+ This function helps in Adding a little GUI effect into your batch program...
+ It Prints simple box on the cmd console at specified X Y co-ordinate...
+
+ Syntax: call Box [X] [Y] [Height] [Width] [Sepration] [BG_Char] [DB] [color]
+ Syntax: call Box [help | /? | -h | -help]
+
+ Where:-
+ X		= X-ordinate of top-left corner of box
+ Y		= Y-co_ordinate of top-left corner of box
+ Height		= height of box
+ Width		= width of box
+ Sepration	= width From where to separate box,if don't specified or
+		  specified '-' (minus),then box will not be separated.
+ BG_char	= Background element of Box,if not specified or specified
+		  '-' (minus),then no background will be shown...It should be
+		  a single Character...
+ DB		= If you want a dialog box,instead of simple box,use '+'(plus),
+		  otherwise use '-'(minus) or specify nothing in this parameter
+ color		= the color Code for the Box,e.g. fc,08,70,07 etc...
+		  Don't define it if you want default colour...or type '-'
+		  (minus) for no color change...
+
+ TIP : Don't specify [BG_Char] and [DB] together ..as one of them will be
+       ignored then !!!
+ Visit https://batchprogrammers.blogspot.com for more...
+ #Kvc with #TheBATeam
